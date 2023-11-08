@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#aboutMe
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-size: 70px;
+}
+
+.aboutMe-1
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.aboutMe-2
+{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.profilePic
+{
+    width: 320px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#aboutMe > div > h2, #projects > div > h2, #achievements > div > div > h2
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+.bar
+{
+    background-color: #262626;
+    width: 75%;
+    height: 3px;
+    border-radius: 50px;
+}
+
+#skills, #projects, #achievements
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#skills > div, #projects > div
+{
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills > div > ul, #projects > div > ul, #achievements > div > div > ul
+{
+    list-style: none;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mini-bar
+{
+    background-color: #262626;
+    width: 95%;
+    height: 1.5px;
+    border-radius: 50px;
+}
+
+.achievements-1
+{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 20px;
+    width: 245px;
+}
+
+#achievements
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#achievements > div
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.achievements-1 > a > img
+{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.all-achievements
+{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 20px;
+    width: 245px;
+    height: 220px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
